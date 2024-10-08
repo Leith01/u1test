@@ -1,0 +1,36 @@
+/* Nollställer marginaler och padding för body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #96cced; /* Bakgrundsfärg för hela sidan */
+}
+
+/* Styling för header och rubriken */
+header {
+    text-align: center;
+    color: white;
+    background-color: #0c7193;
+    padding-top: 10vh;  /* 10% av webbläsarens höjd ovanför rubriken */
+    padding-bottom: 5vh; /* 5% av webbläsarens höjd under rubriken */
+    border-bottom: 5px solid #054d66; /* Kantlinje på 5px */
+}
+
+header h1 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+/* Styling för innehållet (main) */
+main {
+    max-width: 600px;
+    margin: 20px auto; /* Centrera innehållet horisontellt */
+    line-height: 1.4; /* Radavstånd 1.4 */
+    color: #003a52; /* Textfärg */
+    padding: 0 20px; /* Lite padding på sidorna för att ge luft */
+}
+
+p {
+    font-size: 18px;
+}
